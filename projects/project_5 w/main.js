@@ -4,7 +4,7 @@
 
 let inputText ;
 let inputChislo ;
-let inputChisloMax = 5000 ;
+let inputChisloMax = 4999 ;
 
 let messageErr = [] ;
 let messageErrResult = "";
@@ -36,7 +36,7 @@ do  {
 
                     if ( inputChislo != 0 ) {
 
-                        if ( inputChislo < inputChisloMax ) {   
+                        if ( inputChislo <= inputChisloMax ) {   
 
                             messageErrResult = "" 
 
