@@ -17,8 +17,9 @@ let h = canvas.height = window.innerHeight - 17
 
 let dw = w / 2
 let dh = h / 2
+let k = 0.8
 
-let l = h/2
+let l = h/2 * k
 let cub_ish = PRM.p_cub(l,l,l)
 let cub = []
 
