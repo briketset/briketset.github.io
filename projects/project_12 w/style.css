@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(34, 34, 34);
+    perspective: 350px;
+}
+
+#cl_1 {
+    font-size: 100px;
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* transform: rotateY(45deg); */
+    left: 230px;
+    top: 100px;
+    position: relative;
+}
