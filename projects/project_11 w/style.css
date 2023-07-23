@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+#conteiner {
+    width: 102px;
+    height: 102px;
+    /* background-color: teal; */
+    /* border: 1px solid white; */
+    overflow: hidden;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    background-color: tomato;
+    color: tomato;
+    /* border: 1px solid black; */
+    /* transition: 0.1s; */
+    display: inline-flex;
+    margin: 2px;
+    padding: 0px;
+}
