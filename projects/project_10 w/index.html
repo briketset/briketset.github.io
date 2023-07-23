@@ -1,0 +1,33 @@
+<html>
+	<head>
+
+	</head>
+
+	<body>
+
+		<canvas id="canvas"></canvas>
+
+		<script>
+
+			let im = new Image();
+
+			im.onload = function() {
+
+				//var canvas = document.createElement( 'canvas' );
+				let canvas = document.getElementById("canvas");
+			
+				canvas.width = 1000;
+				canvas.height = 1000;
+
+				var context = canvas.getContext('2d');
+
+				context.drawImage(im, 0, 0);
+
+			}
+			
+			im.src = 'ground_map.png';
+						
+		</script>
+
+	</body>
+</html>
