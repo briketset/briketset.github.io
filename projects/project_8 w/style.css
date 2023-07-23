@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(27, 27, 27);
+    overflow:  hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#canvas {
+    background-color: rgb(59, 58, 58);
+}
