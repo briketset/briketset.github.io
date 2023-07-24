@@ -1,8 +1,8 @@
 "use strict";
 
-import {Obj3D} from '../object.js'
-import {Matrix} from '../matrix.js'
-import {ManipulateMatrix} from '../manipulatematrix.js'
+import {Obj3D} from './object.js'
+import {Matrix} from './matrix.js'
+import {ManipulateMatrix} from './manipulatematrix.js'
 
 let Obj = new Obj3D
 let Mtx = new Matrix
